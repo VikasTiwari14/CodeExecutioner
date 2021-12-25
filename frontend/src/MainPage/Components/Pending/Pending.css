@@ -1,0 +1,28 @@
+.PendingCard{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 4fr 2fr 1fr 1fr 1fr;
+    grid-gap: 2%;
+    padding: 1% 2%;
+    background: linear-gradient(180deg, rgb(255 255 255 / 22%), transparent);
+    /* background-color: rgb(255 255 255 / 22%); */
+    border-radius: 5px;
+    margin: 15px 0;  
+}
+
+.PendingCard:hover{
+    background: linear-gradient(90deg, transparent, rgb(255 255 255 / 22%));
+}
+.attemptBtn{
+    width: 100%;
+    background-color: #004f70 !important; 
+    color: white !important;
+}
+.markBtn{
+    background-color: #006600 !important;
+    color: white !important;
+}
+.viewBtn{
+    background-color: tomato !important;
+    color: white !important;
+}

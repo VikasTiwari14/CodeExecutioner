@@ -1,0 +1,83 @@
+.MainPage{
+    background-image: url(../Images/main2.jpg);
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1% ;
+    align-items: center;
+}
+.NavBar> h2{
+    text-align: center;
+    color: rgb(65 177 225);;
+}
+.SideNavBar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.SideNavBar>div{
+    padding: 15px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.closeIcon{
+    font-size: 1.5rem;
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+.QuestionForm{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    padding: 4%;
+    color: white;
+}
+.QuestionModal>div>div {
+    width: 30%;
+    margin: auto;
+    background-image: url(../Images/blackBg.jpg) !important;
+    border-radius: 10px !important;
+    height: fit-content;
+    max-height: 29rem;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 10px 20px !important;
+}
+.QuestionForm p{
+    text-align: left !important;
+}
+.QuestionForm .materialInput>div{
+    background: white !important;
+}
+.QuestionForm .materialInput{
+    width: 100%;
+}
+.QuestionForm .addQuestion{
+    margin: 6% 0 3%;
+    background-color: rgb(255 255 255 / 22%) !important;
+    color: white;
+    font-size: 1rem;
+}
+.mainComponent{
+    background: rgb(108 108 108 / 20%);
+    margin: 0 2%;
+    padding: 1% 2%;
+    min-height: 84vh;
+    max-height: 84vh;
+    border-radius: 10px;
+    overflow: auto;
+}
+.selectedMenu{
+    background: rgb(108 108 108 / 20%);
+}

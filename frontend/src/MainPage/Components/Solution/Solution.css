@@ -1,0 +1,16 @@
+.SolutionContainer{
+    padding: 2%;
+}
+.SolutionHead{
+    display: flex;
+    justify-content: space-between;
+}
+.SolutionBodyFalse{
+    text-align: center;
+}
+.CodeContainer{
+    background-color: #2f2f2f;
+    color: white;
+    border-radius: 10px;
+    padding: 2%;
+}
